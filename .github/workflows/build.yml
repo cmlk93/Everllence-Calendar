@@ -9,7 +9,12 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    # 1. ÇÖZÜM: Sunucuyu stabil çalışan sürüme sabitledik
+    runs-on: ubuntu-22.04
+    
+    # 2. ÇÖZÜM: Node.js 24 sürümünü kullanmaya zorladık
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
     steps:
     - name: Checkout code
