@@ -1,13 +1,13 @@
 [app]
 
 # (str) Title of your application
-title = My Application
+title = Everllence Calendar
 
 # (str) Package name
-package.name = myapp
+package.name = BeeGee
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = org.test
+package.domain = org.cemal
 
 # (str) Source code where the main.py live
 source.dir = .
